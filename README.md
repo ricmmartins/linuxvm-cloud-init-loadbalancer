@@ -1,6 +1,6 @@
 # How to setup a Linux VM with Apache and PHP using cloud-init on Azure behind Load Balancers
 
-> ✔️ I've wrote two more articles covering the usage of cloud-init. You can see the other two here:
+> I've wrote two more articles covering the usage of cloud-init. You can see the other two here:
 >
 > 1. [https://github.com/ricmmartins/linuxvm-cloud-init/](https://github.com/ricmmartins/linuxvm-cloud-init/)
 > 2. [https://github.com/ricmmartins/linuxvm-cloud-init-vmss](https://github.com/ricmmartins/linuxvm-cloud-init-vmss)
