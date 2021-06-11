@@ -1,5 +1,10 @@
 # How to setup a Linux VM with Apache and PHP using cloud-init on Azure behind Load Balancers
 
+> ✔️ I've wrote two more articles covering the usage of cloud-init. You can see the other two here:
+>
+> 1. [https://github.com/ricmmartins/linuxvm-cloud-init/](https://github.com/ricmmartins/linuxvm-cloud-init/)
+> 2. [https://github.com/ricmmartins/linuxvm-cloud-init-vmss](https://github.com/ricmmartins/linuxvm-cloud-init-vmss)
+
 After my latest article about [How to setup a Linux VM with Apache and PHP using cloud-init on Azure](https://github.com/ricmmartins/linuxvm-cloud-init/), 
 I've decided to create the same lab bringing high-availability through Availability Zones and Load Balancing. Then I've created something like this:
 
