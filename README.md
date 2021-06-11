@@ -5,7 +5,7 @@ I've decided to create the same lab bringing high-availability through Availabil
 
 ![draw.png](draw.png)
 
-✔️ Use the Bash environment in [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart).
+# ✔️ Use the Bash environment in [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart) and let's start
 
 [![launch-cloud-shell.png)](launch-cloud-shell.png)](http://shell.azure.com/)
 
