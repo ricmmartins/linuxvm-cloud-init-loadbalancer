@@ -5,6 +5,21 @@ I've decided to create the same lab bringing high-availability through Availabil
 
 ![draw.png](draw.png)
 
+# Create a cloud-init.txt 
+
+#cloud-config
+package_upgrade: true
+packages:
+  - apache2
+  - php
+  - libapache2-mod-php
+  - git
+
+runcmd:
+  - cd "/usr/share" && git clone https://github.com/ricmmartins/simple-php-app.git
+  - mv /var/www/html /var/www/html-bkp
+  - ln -s /usr/share/simple-php-app/ /var/www/html
+
 ## Create a resource group
 ```
 az group create \
